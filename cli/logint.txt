@@ -1,0 +1,83 @@
+4.6 14:35:19 -- << oblaco sozdano
+4.6 14:35:19 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:38:9 -- << oblaco sozdano
+4.6 14:38:9 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:42:23 --  error: no answer server 
+4.6 14:42:49 --  error: no answer server 
+4.6 14:46:59 -- << oblaco sozdano
+4.6 14:46:59 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:48:4 -- << oblaco sozdano
+4.6 14:48:4 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:50:29 -- << oblaco sozdano
+4.6 14:50:29 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:50:31 --  error: no answer server 
+4.6 14:56:53 -- << oblaco sozdano
+4.6 14:56:53 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:56:55 -- << oblaco sozdano
+4.6 14:56:55 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:56:57 -- << oblaco sozdano
+4.6 14:56:57 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:57:3 -- << oblaco sozdano
+4.6 14:57:3 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:57:4 -- << oblaco sozdano
+4.6 14:57:4 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 14:57:5 -- << oblaco sozdano
+4.6 14:57:5 -- ->oblaco sozdano s par-mi1.000000 1.000000 0.012000 1.000000 10
+4.6 15:8:50 -- << oblaco sozdano
+4.6 15:8:50 -- ->oblaco sozdano s par-mi1.000000 1.000000 1.000000 1.000000 100
+4.6 15:8:53 -- << buffer vigruzhen
+4.6 15:9:1 -- << proscanirovano
+4.6 15:9:1 -- ->proscanirovano(dbs)0.1800005
+4.6 15:9:4 -- Help file not found: 
+4.6 15:9:16 -- << oblaco sozdano
+4.6 15:9:16 -- ->oblaco sozdano s par-mi2.000000 2.000000 2.000000 2.000000 2
+4.6 15:12:22 -- << oblaco sozdano
+4.6 15:12:22 -- ->oblaco sozdano s par-mi10.000000 10.000000 0.000000 0.000000 100
+4.6 15:12:25 -- << buffer vigruzhen
+4.6 15:12:36 -- << proscanirovano
+4.6 15:12:36 -- ->proscanirovano(dbs)0.1800005
+4.6 15:25:1 -- Help file not found: 
+4.6 15:25:7 -- Help file not found: 
+4.6 15:25:51 -- Help file not found: 
+4.6 15:26:59 -- Help file not found: 
+4.6 15:28:3 -- Help file not found: help.txt
+4.6 15:28:50 -- Help file:
+4.6 15:28:50 -- << GC (double disp_x double disp_y  double x double y int n > 0)      
+4.6 15:28:50 -- << 								-Gaussian cloud creation with dispersions (disp_x,disp_y) and center (x,y)
+4.6 15:28:50 -- << GEN (int n > 0)                        
+4.6 15:28:50 -- << 								-Dust creation(n points);
+4.6 15:28:50 -- << ROTATE (double angle)                 
+4.6 15:28:50 -- << 								-Buffer rotation by an angle (angle);
+4.6 15:28:50 -- << SHIFT (double x, double y)                    
+4.6 15:28:50 -- << 								-Buffer shidt by vector(x,y);
+4.6 15:28:50 -- << CLEAR                        
+4.6 15:28:50 -- << 								-Delete all points in buffer;
+4.6 15:28:50 -- << UNLOAD                       
+4.6 15:28:50 -- << 								-Unload buffer points to the field;
+4.6 15:28:50 -- << MATRIX                       
+4.6 15:28:50 -- << 								-Distanсe matrix creation and set field operating mod to "Analysis";
+4.6 15:28:50 -- << BINARY (double r)		
+4.6 15:28:50 -- << 								-Incedence matrix creation. Two points are indedent if the distance between
+4.6 15:28:50 -- << 								 then is less than r;
+4.6 15:28:50 -- << Wave
+4.6 15:28:50 -- << 								-Wave algorithm (using Binary matrix);
+4.6 15:28:50 -- << DBS  (double delt, int k)                  
+4.6 15:28:50 -- << 								-DBscan algorithm (delt-distance between neighbours,k-number of neighbours);
+4.6 15:28:50 -- << KM  (int k)            
+4.6 15:28:50 -- << 						            	-Kmeans with k clusters and print for Gnuplot;
+4.6 15:28:50 -- << EM  (int k)                       
+4.6 15:28:50 -- << 								-Expectation maximization with k clustersa and print for Gnuplot ;
+4.6 15:28:50 -- << KMC (int k, int p)                      			
+4.6 15:28:50 -- << 								-KMeansCore with k clusters and p points as a center;
+4.6 15:28:50 -- << DEF                          
+4.6 15:28:50 -- << 								-Get commands from command file ("default.txt")
+4.6 15:28:50 -- << FOREL (double r,int k)                      
+4.6 15:28:50 -- << 								-FOREL algorithm with radius r and depth k. FOREL algorithm works with
+4.6 15:28:50 -- << 								 formal elements of previous iteration;
+4.6 15:28:50 -- << INFO    							
+4.6 15:28:50 -- << 								-Information about field;
+4.6 15:28:50 -- << INFOFC   	
+4.6 15:28:50 -- << 								-Information about clusterizations;
+4.6 15:28:50 -- << HISTO (int u)
+4.6 15:28:50 -- << 								-Histogramm of the field with u boxes and print for Gnuplot;
+4.6 15:28:50 -- << 

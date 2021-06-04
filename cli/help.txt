@@ -1,0 +1,28 @@
+GC (double disp_x double disp_y  double x double y int n > 0)      
+								-Gaussian cloud creation with dispersions (disp_x,disp_y) and center (x,y)
+GEN (int n > 0)                        
+								-Dust creation(n points);
+
+UNLOAD                       
+								-Unload buffer points to the field;
+MATRIX                       
+								-Distanсe matrix creation and set field operating mod to "Analysis";
+
+Wave
+								-Wave algorithm (using Binary matrix);
+DBS  (double delt, int k)                  
+								-DBscan algorithm (delt-distance between neighbours,k-number of neighbours);
+KM  (int k)            
+						            	-Kmeans with k clusters and print for Gnuplot;
+EM  (int k)                       
+								-Expectation maximization with k clustersa and print for Gnuplot ;
+KMC (int k, int p)                      			
+								-KMeansCore with k clusters and p points as a center;
+DEF                          
+								-Get commands from command file ("default.txt")
+FOREL (double r,int k)                      
+								-FOREL algorithm with radius r and depth k. FOREL algorithm works with
+								 formal elements of previous iteration;
+HISTO (int u)
+								-Histogramm of the field with u boxes and print for Gnuplot;
+
